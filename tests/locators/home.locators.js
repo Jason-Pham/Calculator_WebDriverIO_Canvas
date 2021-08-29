@@ -1,0 +1,60 @@
+class homeLocators {
+  constructor() {
+    this.searchField = './/input[@data-testid="search-input"]';
+    this.acceptCookies = '//*[@id="onetrust-accept-btn-handler"]';
+    this.iframe = "#fullframe";
+    this.canvas = '//canvas[@id="canvas"]';
+    this.buttonMCx = "-180";
+    this.buttonMCy = "-100";
+    this.buttonMRx = "-100";
+    this.buttonMRy = "-100";
+    this.buttonMPlusx = "0";
+    this.buttonMPlusy = "-100";
+    this.buttonMMinusx = "80";
+    this.buttonMMinusy = "-100";
+    this.buttonCx = "150";
+    this.buttonCy = "-100";
+    this.button7x = "-180";
+    this.button7y = "-50";
+    this.button8x = "-100";
+    this.button8y = "-50";
+    this.button9x = "0";
+    this.button9y = "-50";
+    this.buttonDividex = "80";
+    this.buttonDividey = "-50";
+    this.buttonSquareRootx = "150";
+    this.buttonSquareRooty = "-50";
+    this.button4x = "-180";
+    this.button4y = "20";
+    this.button5x = "-100";
+    this.button5y = "20";
+    this.button6x = "0";
+    this.button6y = "20";
+    this.buttonMultiplyx = "80";
+    this.buttonMultiplyy = "20";
+    this.buttonPercentx = "150";
+    this.buttonPercenty = "20";
+    this.button1x = "-180";
+    this.button1y = "127";
+    this.button2x = "-100";
+    this.button2y = "127";
+    this.button3x = "0";
+    this.button3y = "127";
+    this.buttonMinusx = "80";
+    this.buttonMinusy = "127";
+    this.buttonMultiplicativeInversex = "150";
+    this.buttonMultiplicativeInversey = "127";
+    this.button0x = "-180";
+    this.button0y = "200";
+    this.buttonDotx = "-100";
+    this.buttonDoty = "200";
+    this.buttonPositiveNegativex = "0";
+    this.buttonPositiveNegativey = "200";
+    this.buttonPlusx = "80";
+    this.buttonPlusy = "200";
+    this.buttonEqualx = "150";
+    this.buttonEqualy = "200";
+  }
+}
+
+module.exports = homeLocators;
